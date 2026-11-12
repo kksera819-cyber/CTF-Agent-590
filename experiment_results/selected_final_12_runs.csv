@@ -1,0 +1,13 @@
+﻿group,run,run_id,verified,status,elapsed_s,input_tokens,output_tokens,model_calls,tool_calls
+baseline_rev_checker,1,53d8c5852d40,False,no_flag,8.42,732,682,2,2
+baseline_rev_checker,2,b358484532ea,False,no_flag,6.11,732,693,2,2
+baseline_rev_checker,3,21f4eab7c72d,False,no_flag,6.44,1878,597,3,3
+improved_rev_checker,1,0d09e1efaeaf,True,solved,28.84,14940,2063,8,9
+improved_rev_checker,2,01db448a682b,True,solved,6.09,2969,628,3,4
+improved_rev_checker,3,3fae0eab903c,True,solved,6.37,3006,665,3,4
+baseline_rev_baby_mult,1,da7184450237,False,no_flag,7.35,1097,693,2,2
+baseline_rev_baby_mult,2,223e3fb50bea,False,no_flag,4.98,1097,376,2,2
+baseline_rev_baby_mult,3,9b4fdb118a4c,False,no_flag,5.34,1097,696,2,2
+improved_rev_baby_mult_fixed,1,12b0737e5ca3,True,solved,22.33,9263,1569,5,5
+improved_rev_baby_mult_fixed,2,315eba4c8c67,True,solved,12.8,12313,1279,6,6
+improved_rev_baby_mult_fixed,3,c77d20b41e6f,True,solved,9.66,8653,972,5,5

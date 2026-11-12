@@ -1,0 +1,7 @@
+﻿file,challenge,mode,verified,status,elapsed_s,input_tokens,output_tokens,model_calls,tool_calls
+baseline_rev_baby_mult.jsonl,rev-baby-mult,baseline,False,no_flag,8.29,1097,693,2,2
+baseline_rev_checker.jsonl,rev-checker,baseline,False,no_flag,8.25,732,693,2,2
+improved_rev_baby_mult.jsonl,rev-baby-mult,improved,True,solved,23.91,13332,2232,6,6
+improved_rev_checker.jsonl,rev-checker,improved,False,token_budget,46.2,16644,4426,7,8
+improved_rev_checker_18k.jsonl,rev-checker,improved,True,solved,21.07,9920,1560,6,7
+improved_rev_checker_success.jsonl,rev-checker,improved,True,solved,52.17,23071,3994,8,9

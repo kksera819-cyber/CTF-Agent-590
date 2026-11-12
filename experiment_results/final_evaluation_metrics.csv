@@ -1,0 +1,5 @@
+﻿group,runs,success_rate,avg_time_s,avg_input_tokens,avg_output_tokens,avg_model_calls,avg_tool_calls
+baseline_rev_baby_mult,3,0.0,5.89,1097,588.33,2,2
+baseline_rev_checker,3,0.0,6.99,1114,657.33,2.33,2.33
+improved_rev_baby_mult_fixed,3,100.0,14.93,10076.33,1273.33,5.33,5.33
+improved_rev_checker,3,100.0,13.77,6971.67,1118.67,4.67,5.67

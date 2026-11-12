@@ -1,0 +1,38 @@
+﻿# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.log
+*.bak
+*_backup.py
+*_before_*.py
+
+# Local workspace
+agent-workspace/
+
+# Editor files
+.vscode/
+.idea/
+
+# Local benchmark data (may contain reference flags)
+benchmark/
+
+# Local experiment outputs
+results.jsonl
+results_improved.jsonl
+
+# Development versions
+ctf_runner_core_backup_latest.py
+ctf_runner_core_final.py
+ctf_runner_core_fixed.py
+ctf_runner_core_optimized.py
+ctf_runner_core_solved.py
+docker_python_tool_solved.py
+docker_python_tool_improved.py
